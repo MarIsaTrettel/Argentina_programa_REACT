@@ -24,3 +24,7 @@ body{
 .tipoSeguroList ul li{
     list-style: none;
 }
+
+input .placeholder{
+    width: 400px;
+}
