@@ -4,6 +4,22 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body{
+    background-color: rgb(146, 177, 167);
+}
+
+.container{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    align-items: center;
+    flex-direction: column;
+    margin: 8% 30%;
+    padding: 3%;
+    gap: 5%;
+}
 
 .tipoSeguroList ul li{
     list-style: none;
