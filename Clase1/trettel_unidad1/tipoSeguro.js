@@ -4,6 +4,15 @@ function enviar (form){
     var mensaje = form.message.value;
 
     const params ={
-        name: nombre;
+        name: nombre,
+        email: email,
+        msj: mensaje
     }
+    console.log(params);
+    alert("Su mensaje ha sido enviado correctamente");
+    resetForm();
+}
+
+function resetForm() {
+    document.querySelector("form").reset();
 }

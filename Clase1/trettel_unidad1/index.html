@@ -15,49 +15,58 @@
     </header>
     <main>
         <section>
-            <h1>Contacto</h1>
-            <h2>Completa tus datos de contacto</h2>
-            <form>
-                <div class>
-                    <label>Nombre</label>
-                    <input name="nombre" id="nombre" />
-                </div>
-                <div>
-                    <label>Apellido</label>
-                    <input name="apellido" id="apellido" />
-                </div>
-                <div>
-                    <label>DNI</label>
-                    <input name="dni" id="dni" />
-                </div>
-                <div>
-                    <label>Email</label>
-                    <input name="email" id="email" />
-                </div>
-                <div>
-                    <label>Telefono</label>
-                    <input name="telefono" id="telefono" />
-                </div>
-                <div class="tipoSeguroList">
-                    <ul>Tipo de seguro
-                        <li>
-                            <input type="radio"><label for="">Básico</label>
-                        </li>
-                        <li>
-                            <input type="radio"><label for="">Intermedio</label>
-                        </li>
-                        <li>
-                            <input type="radio"><label for="">Premium</label>
-                        </li>
+            <form action="javascript:;" onsubmit="enviar(this)">
+                <div class="container">
+                    <h1 id="title">Contacto</h1>
+                    <h2>Completa tus datos de contacto</h2>
+                    <div class="form-control">
+                        <label for="name">Nombre</label>
+                        <input type="name" id="name" placeholder="Escriba su nombre" required />
+                    </div>
 
-                    </ul>
+                    <div class="form-control">
+                        <label for="surname">Apellido</label>
+                        <input type="surname" id="surname" placeholder="Escriba su apellido" required />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="dni">DNI</label>
+                        <input type="dni" id="dni" placeholder="Escriba su DNI" required />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="email">DNI</label>
+                        <input type="email" id="email" placeholder="Escriba su email" required />
+                    </div>
+
+                    <div class="form-control">
+                        <label for="phone">DNI</label>
+                        <input type="phone" id="phone" placeholder="Escriba su telefono" />
+                    </div>
+
+                    <div class="tipoSeguroList">
+                        <ul>Tipo de seguro
+                            <li>
+                                <input type="radio"><label for="">Básico</label>
+                            </li>
+                            <li>
+                                <input type="radio"><label for="">Intermedio</label>
+                            </li>
+                            <li>
+                                <input type="radio"><label for="">Premium</label>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <input type="submit" value="Enviar" class="submit-btn">
+                    <button class="submit-btn" onclick="resetForm()">Borrar formulario</button>
+
                 </div>
             </form>
         </section>
     </main>
-
-
 </body>
-<script src="./tipoSeguro.js"></script>
+
 </html>
 
+<script src="./tipoSeguro.js"></script>
