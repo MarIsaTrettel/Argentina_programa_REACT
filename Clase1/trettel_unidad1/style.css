@@ -13,6 +13,7 @@ header h1 {
     text-transform: uppercase;
     font-size: 4.5rem;
     margin: 20px 0;
+    filter: drop-shadow(1px 1px 1px white)
 }
 
 .container{
@@ -34,6 +35,7 @@ header h1 {
     text-transform: uppercase;
     font-size: 2rem;
     margin-top: 20px;
+    filter: drop-shadow(1px 1px 1px #212121)
 
 }
 
@@ -47,6 +49,7 @@ input .placeholder{
 
 .opcionesCobertura{
     flex-direction:row;
+    padding: 3px  0 0 50px;
 }
 
 .inp_rad,
@@ -77,5 +80,15 @@ button,
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
+}
+
+ul > h4 {
+    text-align: center;
+    text-transform: uppercase;
+    filter: drop-shadow(1px 1px 1px #212121)
+}
+
+.opciones_label{
+    padding: 0 0 0 5px;
 }
 
