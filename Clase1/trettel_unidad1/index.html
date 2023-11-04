@@ -18,30 +18,29 @@
             <form action="javascript:;" onsubmit="enviar(this)">
                 <div class="container">
                     <h1 id="title">Contacto</h1>
-                    <h2>Completa tus datos de contacto</h2>
                     <div class="form-control">
-                        <label for="name">NOMBRE</label>
-                        <input class="placeholder" type="name" id="name" placeholder="Escriba su nombre" required />
+                        <label class="label" for="name"></label>
+                        <input class="placeholder" type="name" id="name" placeholder="NOMBRE" required />
                     </div>
 
                     <div class="form-control">
-                        <label for="surname">APELLIDO</label>
-                        <input class="placeholder" type="surname" id="surname" placeholder="Escriba su apellido" required />
+                        <label class="label" for="surname"></label>
+                        <input class="placeholder" type="surname" id="surname" placeholder="APELLIDO" required />
                     </div>
 
                     <div class="form-control">
-                        <label for="dni">DNI</label>
-                        <input class="placeholder" type="dni" id="dni" placeholder="Escriba su DNI" required />
+                        <label class="label" for="dni"></label>
+                        <input class="placeholder" type="dni" id="dni" placeholder="DNI" required />
                     </div>
 
                     <div class="form-control">
-                        <label for="email">EMAIL</label>
-                        <input class="placeholder" type="email" id="email" placeholder="Escriba su email" required />
+                        <label class="label" for="email"></label>
+                        <input class="placeholder" type="email" id="email" placeholder="EMAIL" required />
                     </div>
 
                     <div class="form-control">
-                        <label for="phone">TELEFONO</label>
-                        <input class="placeholder" type="phone" id="phone" placeholder="Escriba su telefono" />
+                        <label class="label" for="phone"></label>
+                        <input class="placeholder" type="phone" id="phone" placeholder="TELÉFONO" />
                     </div>
 
                     <div class="tipoSeguroList">
@@ -49,7 +48,6 @@
                             <BLOCKQUOTE>
                             <li class="opcionesCobertura">
                                 <input class="inp_rad" type="radio" onclick="apareceTexto(span1, span2, span3 )" id="rad1" name="opcion" value="1"><label for="rad1">Básico <span class="valor" id="span1" >$500</span></label>
-                                
                             </li>
                             <li class="opcionesCobertura">
                                 <input class="inp_rad" type="radio" onclick="apareceTexto(span2, span1, span3)" id="rad2" name="opcion" value="2"><label for="rad2">Intermedio <span class="valor" id="span2">$1000</span></label>
@@ -61,7 +59,6 @@
                         </ul>
                     </div>
                     <input type="submit" value="Enviar" class="submit-btn">
-                    <button class="submit-btn" onclick="resetForm()">Borrar formulario</button>
 
                 </div>
             </form>
