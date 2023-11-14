@@ -1,0 +1,13 @@
+Meeting ID: 974 3731 8315
+
+Passcode: 836387
+
+Com 112: https://chat.whatsapp.com/JBPkNiBg6LlEG2kYBuMm8o
+Com 113: https://chat.whatsapp.com/KVca4YDDKll7xQoXLii1QW
+
+Stock-keeping unit  = código de barras
+
+mui.com (tipo bootstrap)
+Chakra UI se usa mucho en React
+tailwind
+Svelte

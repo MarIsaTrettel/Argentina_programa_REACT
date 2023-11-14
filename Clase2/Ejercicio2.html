@@ -13,34 +13,23 @@
         <h1>CALCULADORA</h1>
     </header>
     <main>
-        <section>
-            <input type="number" placeholder="INGRESE UN NUMERO">
-            <div class="operandos">
-                <p>+</p>
-                <p>-</p>
-                <p>÷</p>
-                <p>x</p>
-            </div>
-            <input type="number" placeholder="INGRESE UN NUMERO">
+        <section class="tipo_inputs">
+            <input type="number" placeholder="INGRESE UN NUMERO"  id="num1">
+            <input type="number" placeholder="INGRESE UN NUMERO" id="num2">
             <br>
-            <input type="number">
+            <p type="text" id="resultado" name="resultado"> </p>
         </section>
 
-        <section class="operandos_btn">
-            <button>SUMAR</button>
-            <button>RESTAR</button>
-            <button>DIVIDIR</button>
-            <button>MULTIPLICAR</button>
+        <section id="operandos_btn">
+            <button value="sumar" id="sumar">+</button>
+            <button value="restar" id="restar">-</button>
+            <button value="dividir" id="dividir">÷</button>
+            <button value="multiplicar" id="multiplicar">x</button>
         </section>
 
     </main>
-<footer>
-    <p>Alumna: María Isabel Trettel</p>
-
-</footer>
-
 
 
 </body>
-
+<script src="./Ejercicio2.js"></script>
 </html>
